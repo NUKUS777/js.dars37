@@ -40,6 +40,21 @@
 
 
 
+  const survey = [
+    { name: "Steve", answer: 50},
+    { name: "Jessica", answer: 40},
+    { name: "Peter", answer: 24},
+    { name: "Elaine", answer: 34}
+  ];
+  const result= survey.every(x=> x.answer>30) 
+  if (result) {
+    console.log('Katta bola');
+  }
+  else {
+    console.log('Yosh bola');
+  }
+
+
 
 // const arr= [2,4];
 // function numberF(value) {
